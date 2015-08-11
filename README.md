@@ -17,26 +17,27 @@ The mobile app also has a feed that shows all catches. For every catch the app r
 
 **Requirements:**
 
-- Design your API in a RESTful way and respond with JSON.
-- Make sure your code has tests.
+1. Design your API in a RESTful way and respond with JSON.
+1. Make sure your code has tests.
 Write the code and design your system to be as realistic and production-ready as possible. Follow best-practices and focus on quality.
-- A catch should have the following attributes: name of angler, species, weight, length, latitude, longitude and a timestamp.
-
-Add 3 endpoints:
+1. A catch should have the following attributes: name of angler, species, weight, length, latitude, longitude and a timestamp.
+1. Add 3 endpoints:
  
-**Create catch**
+  * **Create catch:**
 
-- Request: attributes for a catch including the photo as a HTTP multipart/form-data upload.
-- Should parse input including file upload, save to database, enqueue background job and send response.
-- To keep things simple, no authentication needs to be performed. Instead the name of the angler can be sent in the request as a string.
+    - Request: attributes for a catch including the photo as a [HTTP multipart/form-data upload](http://stackoverflow.com/questions/4238809/example-of-multipart-form-data).
+    - Should parse input including file upload, save to database, enqueue background job and send response.
+    - To keep things simple, no authentication needs to be performed. Instead the name of the angler can be sent in the request as a string.
 
-**Get all catches**
+  * **Get all catches:**
 
-- Should return all catches in the system ordered by date (newest first).
-- Get resized photo for a catch
-- Background job to resize photo:
-- All photos should be resized to be max 140x140px
-- Describe your solution in a README and how to run it.
+    - Should return all catches in the system ordered by date (newest first).
+  
+  * **Get resized photo for a catch**
+
+1. Background job to resize photo:
+  * All photos should be resized to be max 140x140px
+1. Describe your solution in a README and how to run it.
 
 
 **Guidelines**
