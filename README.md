@@ -1,10 +1,10 @@
-### FishBrain Catches REST API
+### Fishbrain Catches REST API
 
 The goal of this project is to assess development skills suitable for a backend developer position. It tests knowledge and proficiency with software design, unit testing and web technologies like HTTP and REST.
 
 - **Project Name:** Fishbrain Catches REST API
 - **Project Goal:** Create a small web-app for uploading catches with photos
-- **Technology:** Pick any language, web framework and testing framework you like (although we’d prefer to see Go, Ruby/Rails or Node.js using Javascript/CoffeeScript)
+- **Technology:** Pick any language, web framework and testing framework you like
 - **Deliverables:** The solution should be sent using the greenhouse.io link that will be provided during the interview process.
 
 **Description:**
